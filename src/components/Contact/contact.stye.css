@@ -1,0 +1,100 @@
+
+.form-container {
+  height: 575px;
+  width: 430px;
+  background:
+    linear-gradient(
+    rgba(35,43,85,0.75),
+    rgba(35,43,85,0.95)),
+     no-repeat center center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 1px rgba(255,255,255,.5);
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+  overflow: hidden;
+  transition: all .5s ease;
+}
+.form-div{
+    margin-top: 20px;
+}
+
+.form-div input {
+  width: 50%;
+  height: 35px;
+    padding-left: 15px;
+	border: none;
+	border-radius: 20px;
+  margin-bottom: 20px;
+  background: rgba(255,255,255,.2);
+  color: #fff;
+  font-size: 1.5rem;
+}
+.form-div  textarea{
+    width: 50%;
+  height: 100px;
+	padding-left: 15px;
+	border: none;
+	border-radius: 20px;
+  margin-bottom: 20px;
+  background: rgba(255,255,255,.2);
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+label {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  color: rgba(255,255,255,.7);
+  display: block;
+}
+
+:focus {outline: none;
+}
+
+.form-div input:focus, textarea:focus, .form-div input:focus, textarea:focus {
+    background: rgba(255,255,255,.3);
+    border: none; 
+    padding-right: 40px;
+    transition: background .5s ease;
+ }
+
+
+
+.btn-animate {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  color: rgba(255,255,255, 1);
+  padding-top: 8px;
+  width: 50%;
+  height: 35px;
+	border: none;
+	border-radius: 20px;
+  margin-top: 23px;
+  background-color: rgba(16,89,255, 1);
+  left: 0px;
+  top: 0px;
+  transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s; 
+}
+.btn-animate:hover{
+    border: none;
+    background-color:rgba(40, 233, 127, 0.2) ;
+    color: #fff;
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media screen and (max-width:800px){
+    .form-container{
+        width: 100%;
+    }
+}
+

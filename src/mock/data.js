@@ -28,30 +28,33 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'screen1.PNG',
+    title: 'MONSTER ROLODEX',
+    info:
+      'In this project, I had used React with a free API where we go the random username and the random Images, if you go to the search bar and type the name you got the same Monster.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/bekundan/mosterRolodex', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'screen3.PNG',
+    title: 'A SECRET PAGE',
+    info:
+      'In this repo, I had used multiple ways to register and login methods where we use also multiple types of hashing passwords and also a third-party login method, Only that person sees the secret who has logged in.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://aqueous-sierra-90070.herokuapp.com/',
+    repo: 'https://github.com/bekundan/secretpage', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'screen2.PNG',
+    title: 'A ToDo App',
+    info:
+      'This project used the express and the ejs for the frontend framework and use MongoDB to save data. an if you want to save any private todo the add /yourprivatespacename and you get your private todo.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://intense-shore-91738.herokuapp.com/',
+    repo: 'https://github.com/bekundan/newtodo', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +62,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'gkundan525@mail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +71,27 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://mobile.twitter.com/gkundan525',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/kundan525/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/kundan-gupta-226359192/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/bekundan',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

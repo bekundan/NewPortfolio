@@ -5,8 +5,8 @@ $secondary-color: #00cdac;
 // $primary-color: #7f449d;
 // $secondary-color: #793fc1;
 
-$white-color: #fff;
-
+$white-color: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+// background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 $dark-grey: #333333;
 
 $dark-blue-text: #272341; // For Headings

@@ -1,9 +1,9 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { Component, useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-
+import Typical from 'react-typical';
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
@@ -27,11 +27,18 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            <span className="text-color-main">{name || 'Kundan Gupta'}</span>
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {subtitle || "I'm a Web Developer."}
+            <br />
           </h1>
         </Fade>
+        <Typical
+          className="hero-title"
+          steps={['I made things  for the Web', 2000]}
+          loop={Infinity}
+          wrapper="h1"
+        />
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">

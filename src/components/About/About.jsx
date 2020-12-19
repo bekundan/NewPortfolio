@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'In my projects, depending upon the requirements I use HTML, CSS, Bootstrap, and Javascript + jQuery to implement additional functionalities.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Whereas I used  Reactjs, Expressjs, and Ejs for the FrontEnd. Also used the Nodejs and the Php for the Backend and the server sites. '}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'For the database, I had used  Mongodb and PhpMyAdmin, for the deployment I used Heroku And Netify  And also design some of the Marketing Social Media  Posters.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

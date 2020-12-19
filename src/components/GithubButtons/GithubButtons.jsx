@@ -5,7 +5,7 @@ const GithubButton = () => (
   <>
     <GitHubButton
       className="github-button"
-      href="https://github.com/cobidev/gatsby-simplefolio/fork"
+      href="https://github.com/bekundan/fork"
       data-icon="octicon-repo-forked"
       data-size="large"
       data-show-count="true"

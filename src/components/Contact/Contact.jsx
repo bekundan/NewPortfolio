@@ -41,6 +41,7 @@ const Contact = () => {
           <form className="contact-form form-container" onSubmit={sendEmail}>
             <div className="form-div">
               <label>Subject</label>
+              <br />
               <input type="text" name="subject" />
               <br />
               <label>Name</label>

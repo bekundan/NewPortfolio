@@ -40,19 +40,26 @@ const Contact = () => {
         <div>
           <form className="contact-form form-container" onSubmit={sendEmail}>
             <div className="form-div">
-              <label>Subject</label>
-              <br />
+              <p>
+                <label>Subject</label>
+              </p>
               <input type="text" name="subject" />
-              <br />
-              <label>Name</label>
+              <p>
+                <label>Name</label>
+              </p>
+
               <input type="text" name="name" />
-              <br />
-              <label>Email</label>
+              <p>
+                <label>Email</label>
+              </p>
+
               <input type="text" name="email" />
-              <br />
-              <label>Message</label>
-              <textarea name="message" />
-              <br />
+              <p>
+                <label>Message</label>
+              </p>
+              <p>
+                <textarea name="message" />
+              </p>
               <button className="btn-animate" type="submit" value="Send">
                 Send
               </button>

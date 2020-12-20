@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import emailjs from 'emailjs-com';
@@ -39,7 +40,7 @@ const Contact = () => {
         </Fade>
         <div>
           <form className="contact-form form-container" onSubmit={sendEmail}>
-            <div className="form-div">
+            <div className="form-div ">
               <p>
                 <label>Subject</label>
               </p>

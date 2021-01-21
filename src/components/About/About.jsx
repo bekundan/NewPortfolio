@@ -55,7 +55,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href="https://drive.google.com/file/d/1cVN3mOSbyaiqHbv_vy53kkhAySDiIuAm/view?usp=sharing"
                     >
                       Resume
                     </a>
